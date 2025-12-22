@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>競技拍 Challenge Park | 官方紀念站</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #e74c3c;
+            --gold: #f1c40f;
+            --light: #ecf0f1;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; color: #333; background: #f4f4f4; }
+        header { background: var(--primary); color: white; padding: 2rem 0; text-align: center; border-bottom: 5px solid var(--accent); }
+        nav { background: #34495e; color: white; display: flex; justify-content: center; padding: 10px; top: 0; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        .container { max-width: 1000px; margin: 20px auto; padding: 20px; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .hero { text-align: center; padding: 40px 0; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('mc-bg.jpg'); color: white; background-size: cover; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+        .card { border: 1px solid #ddd; padding: 15px; border-radius: 8px; background: #fff; }
+        .status-badge { display: inline-block; padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; background: #eee; }
+        .member-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+        .member-item { background: var(--light); padding: 8px 15px; border-radius: 20px; border: 1px solid #ddd; }
+        footer { text-align: center; padding: 20px; background: var(--primary); color: white; margin-top: 40px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background: #f8f8f8; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>競技拍 Challenge Park</h1>
+    <p>Minecraft 競技遊戲經典系列 (2014 - 2018)</p>
+</header>
+
+<nav>
+    <a href="#about">關於系列</a>
+    <a href="#members">成員名單</a>
+    <a href="#seasons">季度資訊</a>
+    <a href="#legacy">衍生節目</a>
+</nav>
+
+<section class="hero">
+    <h2>挑戰、競技、友誼</h2>
+    <p>由香港 YouTuber 團隊聯手打造的 Minecraft 傳奇</p>
+</section>
+
+<div class="container">
+    
+    <section id="about">
+        <h2>系列簡介</h2>
+        <p>「競技拍」（Challenge Park）是由一群香港知名 YouTuber 組成的 Minecraft 影片系列。本系列以各式各樣的競技遊戲為題材，帶領觀眾進入充滿挑戰與歡笑的遊戲世界。從私人伺服器起步，最終發展至 CubeWonders 公開伺服器。</p>
+        
+        <table>
+            <tr><th>英文名稱</th><td>Challenge Park</td></tr>
+            <tr><th>成立日期</th><td>2014年7月24日</td></tr>
+            <tr><th>結束日期</th><td>2018年4月26日</td></tr>
+            <tr><th>主要公司</th><td>遊戲湯麵 (Game Noodle Soup)</td></tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="seasons">
+        <h2>季度回顧</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>第一季 (Game 01-50)</h3>
+                <p><strong>期間：</strong>2014 - 2015</p>
+                <p>初期經典，包含大量嘉賓參與，建立「競技拍村」及獎座系統。</p>
+            </div>
+            <div class="card">
+                <h3>第二季 (Game 51-70)</h3>
+                <p><strong>期間：</strong>2015 - 2016</p>
+                <p>成員固定化，專注於更精緻的遊戲機制與團隊對抗。</p>
+            </div>
+            <div class="card">
+                <h3>第三季 (Game 01-04)</h3>
+                <p><strong>期間：</strong>2018</p>
+                <p>CubeWonders 伺服器時期，強調與觀眾互動與公開遊玩。</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="members">
+        <h2>核心成員</h2>
+        <ul class="member-list">
+            <li class="member-item">永樂 (The One Lock)</li>
+            <li class="member-item">嘉神 (Garson)</li>
+            <li class="member-item">Zer0br1ne</li>
+            <li class="member-item">黑仔</li>
+            <li class="member-item">TD TSUN</li>
+            <li class="member-item">企鵝 (Penguin)</li>
+        </ul>
+        <h3>主要嘉賓</h3>
+        <p>阿翼、水月歌、汐曈、小白、易拉架、嘉寶、俊... 等多位創作者。</p>
+    </section>
+
+    <hr>
+
+    <section id="legacy">
+        <h2>歷史轉型與沒落</h2>
+        <blockquote>
+            根據團隊成員於 2019 年及 2023 年的說明，由於成員創作方向不同以及伺服器營運成本（虧蝕）問題，系列已停止更新。目前「遊戲湯麵」已轉型發展 Minecraft 教育領域。
+        </blockquote>
+        <h3>衍生節目</h3>
+        <ul>
+            <li>建基戰 (Base Building Battle)</li>
+            <li>盤靈古域 系列</li>
+            <li>UHCC 極限競技</li>
+            <li>GNS Podcast</li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 競技拍 Challenge Park 紀念頁面 | 內容引自維基百科與公開資訊</p>
+</footer>
+
+</body>
+</html>
