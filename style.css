@@ -1,0 +1,134 @@
+:root {
+    --bg-black: #0a0a0a;
+    --card-bg: #0f0f0f;
+    --text-main: #ffffff;
+    --text-dim: #b0b0b0;
+    --gradient: linear-gradient(90deg, #ff00cc 0%, #3333ff 100%);
+    --border-color: #2a2a2a;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    background-color: var(--bg-black);
+    color: var(--text-main);
+    font-family: 'Montserrat', 'Noto Sans TC', sans-serif;
+    background-image: radial-gradient(#222 1px, transparent 1px);
+    background-size: 25px 25px;
+}
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.section-padding { padding: 100px 0; }
+
+/* Navigation */
+nav { display: flex; justify-content: space-between; padding: 30px 50px; border-bottom: 1px solid var(--border-color); }
+.logo { font-weight: 900; letter-spacing: 2px; color: #fff; }
+.nav-links { display: flex; list-style: none; gap: 30px; font-size: 0.9rem; }
+
+/* Hero Section */
+.hero { display: flex; align-items: center; gap: 50px; }
+.hero-text h1 { font-size: 5rem; line-height: 1.1; margin-bottom: 25px; font-weight: 900; }
+.hero-text p { color: var(--text-dim); margin-bottom: 35px; line-height: 1.8; }
+.hero-btns { display: flex; gap: 20px; }
+.hero-images { flex: 1; border: 4px solid var(--border-color); border-radius: 20px; overflow: hidden; transform: rotate(2deg); }
+.hero-images img { width: 100%; display: block; }
+
+/* Common UI Elements */
+.btn-gradient {
+    background: var(--gradient); border: none; padding: 15px 35px;
+    color: white; font-weight: bold; cursor: pointer; border-radius: 8px;
+}
+.btn-outline {
+    background: transparent; border: 2px solid #fff; padding: 13px 33px;
+    color: white; font-weight: bold; cursor: pointer; border-radius: 8px;
+}
+
+/* Streams List */
+.section-title { font-size: 2.5rem; margin-bottom: 50px; border-left: 8px solid #ff00cc; padding-left: 20px; }
+.stream-row { display: flex; justify-content: space-between; align-items: center; padding: 30px 0; border-bottom: 1px solid var(--border-color); }
+.num { color: #3333ff; font-size: 3rem; font-weight: 900; opacity: 1; }
+.link { color: #3333ff; text-decoration: none; font-weight: bold; }
+.center-btn { text-align: center; margin-top: 50px; }
+
+/* Profile Cards */
+.profile-card { display: flex; border-top: 1px solid var(--border-color); min-height: 550px; }
+.profile-card.reverse { flex-direction: row-reverse; }
+.profile-info { flex: 1; padding: 100px; background-color: var(--card-bg); }
+.profile-info h2 { font-size: 4rem; margin-bottom: 30px; }
+.profile-img { flex: 1; background-size: cover; background-position: center; filter: grayscale(50%); transition: 0.5s; }
+.profile-img:hover { filter: grayscale(0%); }
+
+/* Grid & Video */
+.video-box { display: flex; background: #111; border-radius: 20px; overflow: hidden; border: 1px solid var(--border-color); }
+.video-thumb { flex: 1; background: #222; display: flex; align-items: center; justify-content: center; font-size: 4rem; color: #ff00cc; }
+.video-content { flex: 1; padding: 60px; }
+.badge { background: #ff00cc; padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; margin-bottom: 20px; display: inline-block; }
+
+.image-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.grid-item { background: #151515; border-radius: 15px; border: 1px solid var(--border-color); min-height: 200px; }
+.wide { grid-column: span 2; }
+.tall { grid-row: span 2; }
+
+/* --- Winner Section Styles --- */
+.winner-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.winner-card {
+    background: #0f0f0f;
+    border: 1px solid #222;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 冠軍特殊金光效果 */
+.winner-card.gold {
+    border-color: #ffd700;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
+}
+
+.winner-card:hover {
+    transform: translateY(-10px);
+    border-color: #61a0ff;
+    box-shadow: 0 10px 30px rgba(97, 160, 255, 0.2);
+}
+
+.trophy {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.game-tag {
+    font-size: 0.8rem;
+    color: #61a0ff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.winner-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.winner-name {
+    font-size: 1.8rem;
+    font-weight: 900;
+    background: linear-gradient(90deg, #d63384, #61a0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.winner-desc {
+    color: #888;
+    font-size: 0.9rem;
+}
