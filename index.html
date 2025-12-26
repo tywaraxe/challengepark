@@ -1,183 +1,134 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>競技拍 Challenge Park | 官方紀念站</title>
-    <style>
-        :root {
-            --primary: #2c3e50;
-            --accent: #e74c3c;
-            --gold: #f1c40f;
-            --light: #ecf0f1;
-        }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; color: #333; background: #f4f4f4; }
-        header { background: var(--primary); color: white; padding: 2rem 0; text-align: center; border-bottom: 5px solid var(--accent); }
-        nav { background: #34495e; color: white; display: flex; justify-content: center; padding: 10px; top: 0; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-        .container { max-width: 1000px; margin: 20px auto; padding: 20px; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        .hero { text-align: center; padding: 40px 0; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('mc-bg.jpg'); color: white; background-size: cover; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
-        .card { border: 1px solid #ddd; padding: 15px; border-radius: 8px; background: #fff; }
-        .status-badge { display: inline-block; padding: 5px 10px; border-radius: 4px; font-size: 0.8rem; background: #eee; }
-        .member-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
-        .member-item { background: var(--light); padding: 8px 15px; border-radius: 20px; border: 1px solid #ddd; }
-        footer { text-align: center; padding: 20px; background: var(--primary); color: white; margin-top: 40px; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-        th { background: #f8f8f8; }
-    </style>
+    <title>競技拍FE | Challenge Park FE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>競技拍 Challenge Park</h1>
-    <p>Minecraft 競技遊戲經典系列 (2014 - 2018)</p>
-</header>
-
-<nav>
-    <a href="#about">關於系列</a>
-    <a href="#members">成員名單</a>
-    <a href="#seasons">季度資訊</a>
-    <a href="#legacy">衍生節目</a>
-</nav>
-
-<section class="hero">
-    <h2>挑戰、競技、友誼</h2>
-    <p>由香港 YouTuber 團隊聯手打造的 Minecraft 傳奇</p>
-</section>
-
-<div class="container">
-    
-    <section id="about">
-        <h2>系列簡介</h2>
-        <p>「競技拍」（Challenge Park）是由一群香港知名 YouTuber 組成的 Minecraft 影片系列。本系列以各式各樣的競技遊戲為題材，帶領觀眾進入充滿挑戰與歡笑的遊戲世界。從私人伺服器起步，最終發展至 CubeWonders 公開伺服器。</p>
-        
-        <table>
-            <tr><th>英文名稱</th><td>Challenge Park</td></tr>
-            <tr><th>成立日期</th><td>2014年7月24日</td></tr>
-            <tr><th>結束日期</th><td>2018年4月26日</td></tr>
-            <tr><th>主要公司</th><td>遊戲湯麵 (Game Noodle Soup)</td></tr>
-        </table>
-    </section>
-
-    <hr>
-
-    <section id="seasons">
-        <h2>季度回顧</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>第一季 (Game 01-50)</h3>
-                <p><strong>期間：</strong>2014 - 2015</p>
-                <p>初期經典，包含大量嘉賓參與，建立「競技拍村」及獎座系統。</p>
-            </div>
-            <div class="card">
-                <h3>第二季 (Game 51-70)</h3>
-                <p><strong>期間：</strong>2015 - 2016</p>
-                <p>成員固定化，專注於更精緻的遊戲機制與團隊對抗。</p>
-            </div>
-            <div class="card">
-                <h3>第三季 (Game 01-04)</h3>
-                <p><strong>期間：</strong>2018</p>
-                <p>CubeWonders 伺服器時期，強調與觀眾互動與公開遊玩。</p>
-            </div>
-        </div>
-    </section>
-
-    <hr>
-
-    <section id="members">
-        <h2>核心成員</h2>
-        <ul class="member-list">
-            <li class="member-item">永樂 (The One Lock)</li>
-            <li class="member-item">嘉神 (Garson)</li>
-            <li class="member-item">Zer0br1ne</li>
-            <li class="member-item">黑仔</li>
-            <li class="member-item">TD TSUN</li>
-            <li class="member-item">企鵝 (Penguin)</li>
-            <li class="member-item">易拉架</li>
-            <li class="member-item">嘉寶</li>
-            <li class="member-item">俊</li>
+    <nav>
+        <div class="logo">★ 競技拍 FE</div>
+        <ul class="nav-links">
+            <li>Placeholder</li>
+            <li>Placeholder</li>
+            <li>Placeholder</li>
         </ul>
-        <h3>主要嘉賓</h3>
-        <p>阿翼、水月歌、汐曈、小白... 等多位創作者。</p>
-    </section>
+    </nav>
 
-    <hr>
-
-    <section id="legacy">
-        <h2>歷史轉型與沒落</h2>
-        <blockquote>
-            根據團隊成員於 2019 年及 2023 年的說明，由於成員創作方向不同以及伺服器營運成本（虧蝕）問題，系列已停止更新。目前「遊戲湯麵」已轉型發展 Minecraft 教育領域。
-        </blockquote>
-        <h3>衍生節目</h3>
-        <ul>
-            <li>建基戰 (Base Building Battle)</li>
-            <li>盤靈古域 系列</li>
-            <li>UHCC 極限競技</li>
-            <li>GNS Podcast</li>
-        </ul>
-    </section>
-
-    <hr>
-
-    <section id="fan-edition" style="background-color: #fff9e6; padding: 25px; border-radius: 10px; border: 2px dashed var(--gold);">
-        <div style="display: flex; align-items: center; gap: 10px;">
-            <h2 style="margin: 0; color: #b8860b;">競技拍 第4季：Fan Edition</h2>
-            <span class="status-badge" style="background: var(--gold); color: #000; font-weight: bold;">社群企劃</span>
-        </div>
-        
-        <p style="margin-top: 15px;">
-            雖然官方系列於 2018 年劃下句點，但「競技拍精神」並未消失。由社群粉絲與地圖開發者發起的 <strong>Fan Edition</strong>，旨在透過重製經典地圖與開發新遊戲，延續當年的熱血。
-        </p>
-
-        <div class="grid">
-            <div class="card" style="border-top: 4px solid var(--gold);">
-                <h4>Placeholder</h4>
+    <main class="container">
+        <section class="hero section-padding">
+            <div class="hero-text">
+                <h1>歡迎來到<br>競技拍FE</h1>
                 <p>Placeholder</p>
+                <div class="hero-btns">
+                    <button class="btn-gradient">官方 YouTube</button>
+                    <button class="btn-outline">賽事規則</button>
+                </div>
             </div>
-            <div class="card" style="border-top: 4px solid var(--gold);">
-                <h4>🛠️ 新成員招募</h4>
-                <p>Placeholder。</p>
+            <div class="hero-images">
+                <img src="Placeholder" alt="Placeholder">
             </div>
-            <div class="card" style="border-top: 4px solid var(--gold);">
-                <h4>Placeholder</h4>
+        </section>
+
+        <section class="section-padding">
+            <h2 class="section-title">活動詳情</h2>
+            <div class="stream-list">
+                <div class="stream-row">
+                    <span class="num">Game 01 A</span>
+                    <span class="date">12月21日</span>
+                    <span class="time">21:30-2300</span>
+                    <span class="game">競技拍FE Game 01 獎座の合成 I場</span>
+                    <a href="#" class="link">Placeholder</a>
+                </div>
+                <div class="stream-row">
+                    <span class="num">Game 01 B</span>
+                    <span class="date">12月28日</span>
+                    <span class="time">21:30-2300</span>
+                    <span class="game">競技拍FE Game 01 獎座の合成 II場</span>
+                    <a href="#" class="link">Placeholder</a>
+                </div>
+                <div class="stream-row">
+                    <span class="num">Game 65</span>
+                    <span class="date">Placeholder</span>
+                    <span class="time">21:30-2300</span>
+                    <span class="game">競技拍FE Game 02/65 亡命奔逃</span>
+                    <a href="#" class="link">Placeholder</a>
+                </div>
+                <div class="stream-row">
+                    <span class="num">Game 36</span>
+                    <span class="date">Placeholder</span>
+                    <span class="time">Placeholder</span>
+                    <span class="game">競技拍FE Game 03/36 格鬥農場</span>
+                    <a href="#" class="link">Placeholder</a>
+                </div>
+                <div class="stream-row">
+                    <span class="num">Game 61</span>
+                    <span class="date">Placeholder</span>
+                    <span class="time">Placeholder</span>
+                    <span class="game">競技拍FE Game 04/61 九宮迷城</span>
+                    <a href="#" class="link">Placeholder</a>
+                </div>
+            </div>
+            <div class="center-btn">
+                <button class="btn-gradient">加入 Discord 社群</button>
+            </div>
+        </section>
+    </main>
+
+    <section class="container section-padding">
+    <h2 class="section-title">歷屆冠軍榮譽榜</h2>
+    <div class="winner-grid">
+        <div class="winner-card gold">
+            <div class="trophy">🏆</div>
+            <div class="winner-info">
+                <span class="game-tag">Game 01</span>
+                <h3>獎座の合成 I場</h3>
+                <p class="winner-name">ProBC820</p>
+                <p class="winner-desc">Placeholder</p>
+            </div>
+        </div>
+    </section>
+    <section class="profile-container">
+        <div class="profile-card">
+            <div class="profile-info">
+                <h2>競技拍 FE<br>Challenge Park FE</h2>
                 <p>Placeholder</p>
+                <div class="socials">⚔️ 🏹 🛡️ 💎</div>
+            </div>
+            <div class="profile-img main-bg"></div>
+        </div>
+        <div class="profile-card reverse">
+            <div class="profile-info">
+                <h2>競技拍FE<br>FAN EDITION</h2>
+                <p>Placeholder</p>
+                <div class="socials">✨ 🎮 🍎 ⚒️</div>
+            </div>
+            <div class="profile-img fe-bg"></div>
+        </div>
+    </section>
+
+    <div class="container section-padding">
+        <h2 class="section-title">Placeholder</h2>
+        <div class="video-box">
+            <div class="video-thumb">▶</div>
+            <div class="video-content">
+                <span class="badge">Placeholder</span>
+                <h3>Placeholder</h3>
+                <p>Placeholder</p>
+                <button class="btn-gradient">Placeholder</button>
             </div>
         </div>
 
-        <section id="members">
-        <h2>核心成員</h2>
-        <ul class="member-list">
-            <li class="member-item">NK-NianKanade_</li>
-            <li class="member-item">akane-CaydenTY</li>
-            <li class="member-item">Adam在Minecraft生存</li>
-            <li class="member-item">Lucas</li>
-            <li class="member-item">Kyle-Kyleong</li>
-        </ul>
-        <h3>主要嘉賓</h3>
-        <p>Placeholder</p>
-    </section>
-
-        <div style="margin-top: 20px; background: #fff; padding: 15px; border-left: 5px solid var(--gold);">
-            <strong>遊戲預告:</strong>
-            <ul style="margin: 10px 0 0 20px;">
-                <li>Game 01: 獎座の合成 </li>
-                <li>Game 65: 亡命奔逃 </li>
-                <li>Game 61: 九宮迷城</li>
-                <li>Game 36: 格鬥農場</li>
-            </ul>
+        <div class="image-grid">
+            <div class="grid-item tall"></div>
+            <div class="grid-item wide"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
         </div>
-    </section>
-</div>
-
-<footer>
-    <p>&copy; 競技拍 Challenge Park 紀念頁面 | 內容引自維基百科與公開資訊</p>
-</footer>
+    </div>
 
 </body>
 </html>
-
-
-
-
